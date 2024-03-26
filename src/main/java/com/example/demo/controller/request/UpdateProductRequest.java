@@ -7,8 +7,8 @@ import lombok.Setter;
 @Data
 @Getter
 @Setter
-public class CreateProductRequest {
-
+public class UpdateProductRequest {
+    private Long id;
     private String dclsMonth;
     private String korCoNm;
     private String finPrdtNm;
